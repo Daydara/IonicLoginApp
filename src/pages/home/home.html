@@ -1,14 +1,26 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Social Network
     </ion-title>
   </ion-navbar>
 </ion-header>
 
+
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+    <div id="topButtons">
+      <button block ion-button (click)="signIn()" item-left>Sign In</button>
+      <button block ion-button (click)="register()" item-left>Register</button>
+    </div>
+
 </ion-content>
+
+<!-- bouton ionic et click envoie sur la firstpage
+
+  home.ts c de là qu'on peut impirter une page et ligne 3
+
+  openFirstPage() {
+  this.navCtrl.push(FirstPage);
+} home ts ala place de ionviewdid...
+-->
