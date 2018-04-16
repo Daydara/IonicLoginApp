@@ -18,7 +18,7 @@ export class LoggedinPage {
 
   email: string;
 
-  constructor(private fire: AngularFireAuth, public navCtrl: NavController, public navParams: NavParams) {
+  constructor(fire: AngularFireAuth, public navCtrl: NavController, public navParams: NavParams) {
     this.email = fire.auth.currentUser.email;
   }
 

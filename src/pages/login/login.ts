@@ -21,7 +21,7 @@ export class LoginPage {
   @ViewChild('username') user;
   @ViewChild('password') password;
 
-  constructor(private alertCtrl: AlertController, private fire:AngularFireAuth, public navCtrl: NavController, public navParams: NavParams) {
+  constructor(private alertCtrl: AlertController, private fire: AngularFireAuth, public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
